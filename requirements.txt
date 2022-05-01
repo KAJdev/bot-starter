@@ -1,0 +1,5 @@
+git+https://github.com/AnimeInterlink/Dis-Snek
+aiohttp
+motor
+pymongo[srv]
+python-dotenv
