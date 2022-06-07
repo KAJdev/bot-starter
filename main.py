@@ -1,13 +1,9 @@
 import dotenv
 import logging
 
-import dis_snek
-from dis_snek.client import Snake
-from dis_snek.client.errors import CommandCheckFailure
-from dis_snek import InteractionContext
-from dis_snek import ActivityType, Intents, Status
-from dis_snek import listen
-from dis_snek import Activity
+import naff
+from naff import Snake, listen, Activity, Intents, Status, InteractionContext, ActivityType
+from naff.client.errors import CommandCheckFailure
 
 import scales
 import db
@@ -16,7 +12,7 @@ from os import getenv
 
 dotenv.load_dotenv()
 logging.basicConfig()
-cls_log = logging.getLogger(dis_snek.logger_name)
+cls_log = logging.getLogger(naff.logger_name)
 cls_log.setLevel(logging.INFO)
 
 bot_log = logging.getLogger(getenv("BOT_NAME", 'bot'))

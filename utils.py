@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 from typing import Optional
-from dis_snek import Embed, MISSING
+from naff import Embed, MISSING
 
 emojis = {
     # Fill with emojis that your bot will use.

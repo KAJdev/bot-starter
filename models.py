@@ -1,5 +1,5 @@
 from bson.objectid import ObjectId
-from dis_snek import Scale, Permissions
+from naff import Scale, Permissions
 from dataclasses import dataclass
 
 """
